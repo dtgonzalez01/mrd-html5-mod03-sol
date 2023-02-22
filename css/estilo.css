@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 1195px){
+  .col-sm-10 {
+    width: 86%;
+  }
+}
+
+#nav-head{
+  background-color: #569dcc;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+}
+
+.navbar-brand h1{
+  padding-top: 20px;
+  color: darkblue;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #333;
+  line-height: .6;
+  margin: 0px auto 0px 15px;
+}
+
+#navbar-items{
+  text-align: center;
+}
+.navbar-toggle{
+  background-color: #F0F8FF;
+}
+#navbar-items a{
+  text-align: center;
+  background-color: #E6E6FA;
+  color: black;
+  font-size: 1.2em;
+}
+
+#navbar-items a:hover{
+  text-transform: uppercase;
+  background-color: lightgoldenrodyellow;
+  font-size: 1.5em;
+}
+
+#deta-items div {
+  border: 0px;
+  margin: 10px;
+  margin-top: 5px;
+  padding: 5px;  
+  background-color: #87CEEB;
+}
+
+#deta-items h2{
+  width: 100%;
+  color: black;
+  text-align: center;
+  float: left;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#deta-items h3{
+  border: 1px solid black;
+  background-color: indianred;
+  width: 40%;
+  margin: -5px -5px 0px 20px;
+  color: black;
+  text-align: center;
+  float: right;
+}
+
+#deta-items p {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 5px;
+  color: black;
+  float: right;
+  text-align: justify;
+  overflow: auto;
+}
